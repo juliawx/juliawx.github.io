@@ -71,3 +71,7 @@ li a:hover: {
   font-size: 1em;
   font-family: "Calibri", Helvetica, sans-serif;
 }
+
+#about {
+  background: black;
+}
