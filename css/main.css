@@ -1,6 +1,12 @@
 /*! Styling for index.html for juliawxu.github.io */
 
 h1 {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
+h2 {
   font-family: "Calibri", Helvetica, sans-serif;
 }
 
@@ -29,9 +35,12 @@ li a:hover: {
   background-color: #d3d3d3;
 }
     
-.banner {
+#banner {
   background-color: lightgreen;
   margin: 20px 0 20px 0;
-  padding: 20px
-  color: black;
+  padding: 20px;
+}
+
+#banner-text {
+  text-align: center;
 }
