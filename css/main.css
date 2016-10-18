@@ -1,5 +1,9 @@
 /*! Styling for index.html for juliawxu.github.io */
 
+h1 {
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,11 +25,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #d3d3d3;
-}
-
-.active {
+li a:hover: {
   background-color: #d3d3d3;
 }
     
+.banner {
+  background-color: lightgreen;
+  margin: 20px 0 20px 0
+}
