@@ -37,7 +37,7 @@ li a:hover: {
     
 #banner {
   background-color: lightgreen;
-  margin: 20px 0 20px 0;
+  margin: 0 0 0 0.1em
   padding: 20px;
 }
 
