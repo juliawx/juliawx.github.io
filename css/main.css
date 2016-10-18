@@ -24,7 +24,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   font-family: "Calibri", Helvetica, sans-serif;
   text-align: center;
   padding: 14px 16px;
@@ -51,5 +51,5 @@ li a:hover: {
 
 #banner-text {
   text-align: center;
-  color: white
+  color: black;
 }
