@@ -76,6 +76,11 @@ li a:hover: {
   font-family: "Calibri", Helvetica, sans-serif;
 }
 
+#work-images {
+  float: left;
+  margin: 8px 8px 8px 8px;
+}
+
 #about {
 }
 
