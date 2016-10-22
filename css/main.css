@@ -119,3 +119,7 @@ contact-li a {
 contact-li a:hover: {
   background-color: #d3d3d3;
 }
+
+div {
+  display: block;
+}
