@@ -122,4 +122,5 @@ contact-li a:hover: {
 
 div {
   display: block;
+  clear: left;
 }
