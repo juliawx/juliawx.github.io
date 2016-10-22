@@ -125,3 +125,7 @@ div {
   display: block;
   clear: left;
 }
+
+footer {
+  font-family: "Calibri", Helvetica, sans-serif;
+}
