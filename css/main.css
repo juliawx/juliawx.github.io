@@ -89,6 +89,7 @@ img.work-image {
   vertical-align: text-top;
   width:304px; 
   height:228px;
+  display: block;
 }
 
 #about {
