@@ -96,11 +96,9 @@ contact-li a {
   color: black;
   font-family: "Calibri", Helvetica, sans-serif;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
 contact-li a:hover: {
   background-color: #d3d3d3;
 }
-  
