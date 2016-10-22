@@ -10,6 +10,10 @@ h2 {
   font-family: "Calibri", Helvetica, sans-serif;
 }
 
+p {
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -74,3 +78,14 @@ li a:hover: {
 
 #about {
 }
+
+contact-icons {
+  display: block;
+  color: black;
+  font-family: "Calibri", Helvetica, sans-serif;
+  text-align: center;
+  float: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
