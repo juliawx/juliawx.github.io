@@ -4,14 +4,17 @@ h1 {
   font-size: 5em;
   font-weight: bold;
   font-family: "Calibri", Helvetica, sans-serif;
+  overflow: auto;
 }
 
 h2 {
   font-family: "Calibri", Helvetica, sans-serif;
+  overflow: auto;
 }
 
 p {
   font-family: "Calibri", Helvetica, sans-serif;
+  overflow: auto;
 }
 
 ul {
@@ -19,7 +22,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent
+  background-color: transparent;
 }
 
 li {
