@@ -97,6 +97,7 @@ contact-li a {
   font-family: "Calibri", Helvetica, sans-serif;
   text-align: center;
   text-decoration: none;
+  padding-right: 16px;
 }
 
 contact-li a:hover: {
