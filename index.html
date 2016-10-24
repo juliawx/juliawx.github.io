@@ -8,10 +8,10 @@
   <head>
 		<title> Julia W Xu </title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-    <!-- link to font for banner name -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-	</head>
+		<link rel="stylesheet" type="text/css" href="/Users/julia/Desktop/juliawxu.github.io/css/main.css">
+    <!-- link to fonts -->
+	  <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
 	<body>
 		
 	<!-- NAV BAR -->
@@ -26,69 +26,71 @@
 		
 		<!-- BANNER -->
 		<div id="banner">
-      <div id="banner-name"> Julia Xu </div>
+      <div id="banner-name">Julia Xu</div>
       <img id="banner-image" src="files/webassetbanner2.png"/>
     </div>
 		
     <!-- MY WORK -->
+		<div id="wrapper-work">
     <section id="mywork">
       <h1>My Work</h1>
-      <p>Take a look at some stuff I've done.</p>
+      <p class="work-head">Take a look at some stuff I've done.</p>
     <!--images for projects (pentago, shell)
-    This is my first ever project that I made for my first ever CS class. It simulates the game Pentago (INSERT LINK), which is a 2-player game similar to tic-tac-toe, but with a twist (heh). It is written in Racket.
-    This is a fully functional terminal shell that I made for a Computer Systems class in C. The commands cd, pwd, and ls are built-in, and it also supports the redirection of input and output.
-    This is a collection of coding practice problem solutions that I have written up using Python 2. These are various questions I have encountered in interviews, in interview workshops, and on the internet. 
     image for coding problems practice -->
-      <div>
+      <div class ="work">
 	      <img class="work-image" src="files/webassetproblems.png">
-	      <h2>Practice Problems</h2>
+	      <h2 class="work"><a href="https://github.com/juliawxu/practice-problems" target="_blank">Practice Problems</a></h2>
 	      <h3>Autumn 2016</h3>
 	      <p>I wrote up a collection of coding practice problem solutions using Python 2. These are solutions to various questions that I have encountered in interviews, in interview workshops, and on the internet.</p>
-      </div> 
-      
-      <div>
-	      <img class="work-image" src="files/webassetshell.png">
-	      <h2>Terminal Shell</h2>
-	      <h3>Spring 2016</h3>
-              <p>I wrote a fully functional terminal shell for a Computer Systems class in C. The commands cd, pwd, and ls are built-in, and it also supports the redirection of input and output.</p>
       </div>
-      <div> 
+
+      <div class="work">
+	      <img class="work-image" src="files/webassetshell.png">
+	      <h2 class="work"><a href="https://github.com/juliawxu/class-projects/blob/master/shell.c" target="_blank">Terminal Shell</a></h2>
+	      <h3>Spring 2016</h3>
+        <p>I wrote a fully functional terminal shell for a Computer Systems class in C. The commands cd, pwd, and ls are built-in, and it also supports the redirection of input and output.</p>
+      </div>
+      <div class="work"> 
 	      <img class="work-image" src="files/webassetpentago.png">
-	      <h2>Pentago</h2>
+	      <h2 class="work"><a href="https://github.com/juliawxu/class-projects/blob/master/Pentago-Project.rkt" target="_blank">Pentago</a></h2>
 	      <h3>Autumn 2015</h3>
-	      <p>My first ever project that I made for my first ever CS class is a simulation of Pentago. Pentago (INSERT LINK) is a 2-player game similar to tic-tac-toe, but with a twist (heh). My version is written in Racket and gives you the option of playing against a very basic AI.</p>
+	      <p>My first ever project that I made for my first ever CS class is a simulation of Pentago. <a href="https://en.wikipedia.org/wiki/Pentago" target="_blank">Pentago</a> is a 2-player game similar to tic-tac-toe, but with a twist (heh). My version is written in Racket and gives you the option of playing against a very basic AI.</p>
 	    </div>
+		</div>
     </section>
     
 		<!-- ABOUT -->
+		<div id="wrapper-about">
     <section id="about">
       <h1>About</h1>
-    <!--michigan, hk, uchicago
-    i try to enjoy the world as much as i can (aka i eat a lot and take amateur landscape shots)
-    I am a 3rd year at the University of Chicago majoring in Computer Science. Chicago / rsos blah blah
-    I was born in Cambridge, MA, grew up in Portage, MI, and went to high school in Hong Kong. blah blah
-    I enjoy sketching, reading, and running blah blah blah-->
-      <h2>University of Chicago</h2>
-      <h3>Chicago, IL</h3>
-      <p>I currently attend the University of Chicago. I have taken a variety of different classes here, some of which have really challenged me, and all of which have caused me to learn more. When psets and exams don't dominate my life (and sometimes, even when they do), I help design the Chicago Maroon, volunteer with the University of Chicago Medicine's TLC program, run impromptu debate rounds in the Chicago Debate Society, and attend ACM-W meetings. UChicago has shown me the value of intellectual inquiry, and the importance of lifelong learning.</p>
+			<div class="about">
+        <h2>University of Chicago</h2>
+        <h3>Chicago, IL</h3>
+        <p>I currently attend the University of Chicago. I have taken a variety of different classes here, some of which have really challenged me, and all of which have caused me to learn more. When psets and exams don't dominate my life (and sometimes, even when they do), I help design the Chicago Maroon, volunteer with the University of Chicago Medicine's TLC program, run impromptu debate rounds in the Chicago Debate Society, and attend ACM-W meetings. UChicago has shown me the value of intellectual inquiry, and the importance of lifelong learning.</p>
+      </div>
+      <div class="about">
       <h2>West Island School</h2>
       <h3>Hong Kong</h3>
       <p>I moved to Hong Kong after spending 10 years in a small suburb in the Midwest, which was right in time for high school. West Island School presented a very new experience with its British curriculum and diverse students, staff, and faculty. English literature and Economics were my favorite subjects, and I my four years of varsity cross country definitely helped with building character. I still visit Hong Kong at least annually since my family lives there, and consider it my favorite city.</p>
+      </div>
+		</div>
     </section>
     
     <!-- FAVORITES -->
-    <!-- favorite articles, comics>
+    <!-- favorite articles, comics-->
 	
-		<!-- CONTACT -->
+		<!-- CONTACT--> 
     <section id="contact">
-      <h1>Contact</h1>
-      <p>Let's get in touch.</p>
+      <!--h1>Contact</h1>
+      <p class="contact">Let's get in touch.</p>-->
       <contact-icons>
-      <contact-li><a href="mailto:juliaxu@uchicago.edu">Email</a></contact-li>
-      <contact-li><a href="https://github.com/juliawxu">Github</a></contact-li>
-			<contact-li><a href="/files/resume.pdf">Resume</a></contact-li>
-			<contact-li><a href="https://linkedin.com/in/juliawxu">LinkedIn</a></contact-li>
-	  </contact-icons>
+			<ul>
+        <li><a href="mailto:juliaxu@uchicago.edu">Email</a></contact-li>
+        <li><a href="https://github.com/juliawxu">Github</a></contact-li>
+			  <li><a href="/files/resume.pdf">Resume</a></contact-li>
+			  <li><a href="https://linkedin.com/in/juliawxu">LinkedIn</a></contact-li>
+	    </ul>
+      </contact-icons>
     </section>
 		
   <footer>
