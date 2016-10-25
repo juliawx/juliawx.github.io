@@ -5,7 +5,7 @@ h1 {
   font-weight: bold;
   font-family: 'Just Another Hand', "Calibri", Helvetica, sans-serif;
   clear: left;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
 	margin: 0;
 	padding: 0;
@@ -16,6 +16,7 @@ h2.work {
 	font-size: 2.5em;
 	margin: 8px 0 0 0;
 	padding: 0;
+  overflow: hidden;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
   font-size: 2.5em;
   margin: 0;
 	padding: 0;
+  overflow: hidden;
 }
 
 h3 {
@@ -30,6 +32,7 @@ h3 {
 	font-size: 1.6em;
 	margin: 0;
 	padding: 0;
+  overflow: hidden;
 }
 
 p {
@@ -37,17 +40,20 @@ p {
 	font-size: 1.4em;
 	margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 p.work-head {
   font-family: 'Open Sans Condensed', Helvetica, sans-serif;
 	text-align: center;
 	font-size: 1.7em;
+  overflow: hidden;
 }
 
 p.contact {
   text-align: center;
   font-size: 2em;
+  overflow: hidden;
 }
 
 ul {
@@ -58,6 +64,7 @@ ul {
 
 li {
   float: right;
+  overflow: hidden;
 }
 
 li a {
@@ -68,14 +75,17 @@ li a {
   text-align: center;
   padding: 0 0 0 18px;
   text-decoration: none;
+  overflow: hidden;
 }
 
 a:link {
   text-decoration: none;
+  overflow: hidden;
 }
 
 li a:hover {
   color: #d3d3d3;
+  overflow: hidden;
 }
 
 #banner {
@@ -101,6 +111,7 @@ li a:hover {
   width: 100%;
   font-size: 11em;
   font-family: 'Just Another Hand', cursive;
+  overflow: hidden;
 }
 
 #wrapper-work {
@@ -113,6 +124,7 @@ li a:hover {
       rgba(255, 255, 255, 0.6)
     ),
     url('/files/greygeobackground.jpg');
+  overflow: hidden;
 }
 
 #wrapper-about {
@@ -124,6 +136,7 @@ li a:hover {
       rgba(224, 255, 255, 0.8), 
       rgba(70, 130, 180, 0.7)
     );  
+  overflow: hidden;
 }
 
 img.work-image {
@@ -134,6 +147,7 @@ img.work-image {
   height:228px;
   border: 2px solid black;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 #about {
@@ -149,6 +163,7 @@ contact-icons {
 
 contact-li {
   float: left;
+  overflow: hidden;
 }
 
 contact-li a {
@@ -158,10 +173,12 @@ contact-li a {
   text-align: center;
   text-decoration: none;
   padding-right: 16px;
+  overflow: hidden;
 }
 
 contact-li a:hover {
   color: #d3d3d3;
+  overflow: hidden;
 }
 
 div.work {
@@ -169,17 +186,17 @@ div.work {
 	width: 60%;
 	padding: 10px;
 	clear: left;
+  overflow: hidden;
 }
 
 div.about {
 	margin: auto;
 	width: 60%;
 	padding: 10px;
+  overflow: hidden;
 }
 
 footer {
   font-family: 'Open Sans Condensed', "Calibri", Helvetica, sans-serif;
+  overflow: hidden;
 }
-
-footer-li {
-
