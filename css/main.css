@@ -11,6 +11,10 @@ h1 {
 	padding: 0;
 }
 
+h1.work {
+  padding: 0 0 50px 0;
+}
+
 h2.work {
   font-family: "Just Another Hand", cursive;
 	font-size: 2.5em;
