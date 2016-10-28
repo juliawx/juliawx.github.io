@@ -1,14 +1,16 @@
 /*! Styling for index.html for juliawxu.github.io */
 
+/******** MAIN HEADERS, ETC. ********/
+
 h1 { 
   font-size: 5em;
   font-weight: bold;
   font-family: 'Just Another Hand', "Calibri", Helvetica, sans-serif;
   clear: left;
   overflow: hidden;
-  text-align: center;
-	margin: 0;
-	padding: 0;
+  text-align: center; 
+  margin: 0;
+  padding: 0;
 }
 
 h1.work {
@@ -60,6 +62,8 @@ p.contact {
   overflow: hidden;
 }
 
+/******** LIST/LINK ELEMENTS ********/
+
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -92,6 +96,8 @@ li a:hover {
   overflow: hidden;
 }
 
+/******** BANNER STUFF ********/
+
 #banner {
   display: block;
   position: relative;
@@ -118,6 +124,8 @@ li a:hover {
   overflow: hidden;
 }
 
+/******** MY WORK ********/
+
 #wrapper-work {
   width: 100vw;
   margin: 0 auto;
@@ -128,26 +136,6 @@ li a:hover {
       rgba(255, 255, 255, 0.6)
     ),
     url('/files/greygeobackground.jpg');
-  overflow: hidden;
-}
-
-#wrapper-about {
-  width: 100vw;
-  margin: 0 auto;
-  padding: 100px 0;
-  background: 
-    linear-gradient(
-      rgba(224, 255, 255, 0.8), 
-      rgba(70, 130, 180, 0.7)
-    );  
-  overflow: hidden;
-}
-
-#wrapper-blog {
-  width: 70%;
-  margin: 0 auto;
-  padding: 100px 0;
-  background: white;
   overflow: hidden;
 }
 
@@ -162,8 +150,38 @@ img.work-image {
   overflow: hidden;
 }
 
-#about {
+
+div.work {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	clear: left;
+  overflow: hidden;
 }
+
+
+/******** ABOUT ********/
+
+#wrapper-about {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 100px 0;
+  background: 
+    linear-gradient(
+      rgba(224, 255, 255, 0.8), 
+      rgba(70, 130, 180, 0.7)
+    );  
+  overflow: hidden;
+}
+
+div.about {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+  overflow: hidden;
+}
+
+/******** CONTACT ********/
 
 contact-icons {
   list-style-type: none;
@@ -193,20 +211,17 @@ contact-li a:hover {
   overflow: hidden;
 }
 
-div.work {
-	margin: auto;
-	width: 60%;
-	padding: 10px;
-	clear: left;
+/******** BLOG ********/
+
+#wrapper-blog {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+  background: white;
   overflow: hidden;
 }
 
-div.about {
-	margin: auto;
-	width: 60%;
-	padding: 10px;
-  overflow: hidden;
-}
+/******** FOOTER ********/
 
 footer {
   font-family: 'Open Sans Condensed', "Calibri", Helvetica, sans-serif;
