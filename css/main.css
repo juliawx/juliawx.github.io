@@ -39,6 +39,7 @@ h3 {
 	margin: 0;
 	padding: 0;
   overflow: hidden;
+  color: #d3d3d3;
 }
 
 p {
@@ -99,7 +100,8 @@ li a:hover {
 /******** BANNER STUFF ********/
 
 #banner {
-  display: block;
+  display: 
+  block;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -219,6 +221,10 @@ contact-li a:hover {
   padding: 100px 0;
   background: white;
   overflow: hidden;
+}
+
+p.blog {
+  text-align: center;
 }
 
 /******** FOOTER ********/
