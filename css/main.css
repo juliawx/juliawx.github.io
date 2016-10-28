@@ -143,6 +143,14 @@ li a:hover {
   overflow: hidden;
 }
 
+#wrapper-blog {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 100px 0;
+  background: white;
+  overflow: hidden;
+}
+
 img.work-image {
   float: left;
   margin: 8px 8px 8px 8px;
