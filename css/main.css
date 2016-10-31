@@ -15,6 +15,7 @@ h1 {
 
 h1.work {
   padding: 0 0 50px 0;
+  overflow: hidden;
 }
 
 h2.work {
@@ -53,6 +54,7 @@ p.work-head {
   font-family: 'Open Sans Condensed', Helvetica, sans-serif;
 	text-align: center;
 	font-size: 1.7em;
+	margin: 0 0 1em 0;
   overflow: hidden;
 }
 
@@ -84,7 +86,7 @@ ul.wib {
 li.wib {
 	text-align: center;
 	overflow: hidden;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 li a {
@@ -199,6 +201,7 @@ div.about {
 	width: 100vw;
 	margin: 0 auto;
 	padding: 100px 0;
+	overflow: hidden;
 	background:
     linear-gradient(
       rgba(255, 255, 255, 0.6),
