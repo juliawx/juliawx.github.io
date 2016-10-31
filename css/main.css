@@ -93,13 +93,24 @@ li.wib {
   font-size: 1.5em;
 }
 
-li a {
+li a.nav {
   display: block;
   color: black;
   font-family: 'Open Sans Condensed', "Calibri", Helvetica, sans-serif;
 	font-size: 1.2em;
   text-align: center;
   padding: 0 0 0 18px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+li a.wib {
+	display: block;
+	color: black;
+	font-family: 'Open Sans Condensed', "Calibri", Helvetica, sans-serif;
+	font-size: 1.2em;
+  text-align: center;
+  padding: 0;
   text-decoration: none;
   overflow: hidden;
 }
