@@ -64,15 +64,26 @@ p.contact {
 
 /******** LIST/LINK ELEMENTS ********/
 
-ul {
+ul.nav {
   list-style-type: none;
   overflow: hidden;
   background-color: transparent;
 }
 
-li {
+li.nav {
   float: right; 
   overflow: hidden;
+}
+
+ul.wib {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+li.wib {
+	float: center;
+	overflow: hidden;
 }
 
 li a {
@@ -180,6 +191,20 @@ div.about {
 	width: 60%;
 	padding: 10px;
   overflow: hidden;
+}
+
+/******** WiB ********/
+
+#wrapper-wib {
+	width: 100vw;
+	margin: 0 auto;
+	padding: 100px 0;
+	background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url('/files/warmgeobackground.jpg');  
 }
 
 /******** CONTACT ********/

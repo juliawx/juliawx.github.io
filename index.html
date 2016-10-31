@@ -21,17 +21,18 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- link to fonts -->
 	  <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans+Condensed:300" rel="stylesheet">
+		<link rel='shortcut icon' href="files/favicon.ico" type='image/x-icon'>
   </head>
 	<body>
 		
 	<!-- NAV BAR -->
 	<nav>
-    <ul>
-	    <li><a href="#about">About</a></li>
-      <li><a href="#mywork">My Work</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <!--<li><a href="#favorites">Favorites</a></li>-->
-      <li><a href="#contact">Contact</a></li>
+    <ul class="nav">
+			<li class="nav"><a href="#contact">Contact</a></li>
+			<li class="nav"><a href="blog.html">Blog</a></li>
+			<li class="nav"><a href="#wib">WiB</a></li>
+			<li class="nav"><a href="#about">About</a></li>
+			<li class="nav"><a href="#mywork">My Work</a></li>
     </ul>
 	</nav>
 		
@@ -86,26 +87,34 @@
 		</section>
     </div>
     
-    <!-- FAVORITES -->
-    <!-- favorite articles, comics-->
-	
+    <!-- WiB - aka here's what i believe -->
+		<div id="wrapper-wib">
+		<section id="wib">
+		<h1>What I believe</h1>
+		<ul class="wib">
+			<li class="wib"><a href="http://www.nytimes.com/2016/09/11/opinion/sunday/what-should-you-choose-time-or-money.html">Choose Time over Money</a></li>
+			<li class="wib"><a href="http://www.nytimes.com/2016/07/24/upshot/first-rule-of-the-job-hunt-find-something-you-love-to-do.html">Do What You Love</a></li>
+		</ul>
+		</section>
+		</div>
+
 		<!-- CONTACT--> 
     <section id="contact">
       <!--h1>Contact</h1>
       <p class="contact">Let's get in touch.</p>-->
       <contact-icons>
-			<ul>
-        <li><a href="mailto:juliaxu@uchicago.edu">Email</a></li>
-        <li><a href="https://github.com/juliawxu">Github</a></li>
-			  <li><a href="/files/resume.pdf">Resume</a></li>
-			  <li><a href="https://linkedin.com/in/juliawxu">LinkedIn</a></li>
+			<ul class="nav">
+        <li class="nav"><a href="mailto:juliaxu@uchicago.edu">Email</a></li>
+        <li class="nav"><a href="https://github.com/juliawxu">Github</a></li>
+			  <li class="nav"><a href="/files/resume.pdf">Resume</a></li>
+			  <li class="nav"><a href="https://linkedin.com/in/juliawxu">LinkedIn</a></li>
 	    </ul>
       </contact-icons>
     </section>
 		
   <footer>
-    <ul>
-      <li>Copyright Julia Xu 2016</li>
+    <ul class="nav">
+      <li class="nav">Copyright Julia Xu 2016</li>
     </ul>  
 	</footer>
   </body>
