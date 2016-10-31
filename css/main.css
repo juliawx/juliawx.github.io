@@ -22,7 +22,7 @@ h2.work {
   font-family: "Just Another Hand", cursive;
 	font-size: 2.5em;
 	margin: 0;
-	padding: 8px 0 0px 0;
+	padding: 8px 0 0 8px;
   overflow: hidden;
 }
 
@@ -42,8 +42,16 @@ h3 {
   overflow: hidden;
 }
 
-p {
+p.work {
   font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.4em;
+	margin: 0;
+  padding: 7px 0 0 8px;
+  overflow: hidden;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1.4em;
 	margin: 0;
   padding: 0;
