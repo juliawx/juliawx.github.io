@@ -84,6 +84,7 @@ ul.wib {
 li.wib {
 	text-align: center;
 	overflow: hidden;
+  font-size: 2em;
 }
 
 li a {
