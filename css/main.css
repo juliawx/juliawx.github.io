@@ -82,7 +82,7 @@ ul.wib {
 }
 
 li.wib {
-	float: center;
+	text-align: center;
 	overflow: hidden;
 }
 
