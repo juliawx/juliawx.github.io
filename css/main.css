@@ -83,6 +83,7 @@ ul.nav {
   list-style-type: none;
   overflow: hidden;
   background-color: transparent;
+  padding: 0 5px 0 0;
 }
 
 li.nav {
@@ -228,8 +229,8 @@ div.about {
 	overflow: hidden;
 	background:
     linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
+      rgba(156, 223, 156, 0.8),
+      rgba(156, 223, 156, 0.8)
     ),
     url('/files/warmgeobackground.jpg');  
 }
@@ -283,4 +284,36 @@ p.blog {
 footer {
   font-family: 'Open Sans Condensed', "Calibri", Helvetica, sans-serif;
   overflow: hidden;
+}
+
+/******** TEST STUFF aka stuff for blog posts ********/
+
+.element1 {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: palegreen;
+  animation-name: element1;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes element1 {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: darkgreen;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: purple;
+  }
 }
