@@ -271,7 +271,7 @@ contact-li a:hover {
   width: 70%;
   margin: 0 auto;
   padding: 100px 0;
-  background: white;
+  background: transparent;
   overflow: hidden;
 }
 
@@ -288,7 +288,7 @@ footer {
 
 /******** TEST STUFF aka stuff for blog posts ********/
 
-.element1 {
+div.element1 {
   height: 5em;
   width: 5em;
   margin: 0 auto;
