@@ -229,10 +229,10 @@ div.about {
 	overflow: hidden;
 	background:
     linear-gradient(
-      rgba(199, 247, 180, 0.8),
-      rgba(199, 247, 180, 0.8)
+      rgba(199, 247, 180, 0.6),
+      rgba(199, 247, 180, 0.6)
     ),
-    url('/files/warmgeobackground.jpg');  
+    url('/files/greygeobackground.jpg');  
 }
 
 /******** CONTACT ********/
@@ -289,10 +289,11 @@ footer {
 /******** TEST STUFF aka stuff for blog posts ********/
 
 .element1 {
-  height: 250px;
-  width: 250px;
+  height: 5em;
+  width: 5em;
   margin: 0 auto;
   background-color: palegreen;
+  -webkit-animation-name: test1; /* Safari 4.0 - 8.0 */
   animation-name: test1;
   animation-duration: 1.5s; 
   animation-timing-function: ease-out; 
