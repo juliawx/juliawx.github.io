@@ -291,7 +291,7 @@ footer {
 div.element1 {
     width: 100px;
     height: 100px;
-    background: red;
+    background: palegreen;
     position: relative;
     -webkit-animation: movea 5s infinite; /* Safari 4.0 - 8.0 */
     animation: movea 5s infinite;
@@ -305,10 +305,10 @@ div.element1:hover {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes movea {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 100vw;}
 }
 
 @keyframes movea {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 100vw;}
 }
