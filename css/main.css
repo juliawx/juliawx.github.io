@@ -313,12 +313,12 @@ div.element1:hover {
     to {left: 100vw;}
 }
 
-div.element2-container {
+div.cubbies-container {
   border-radius: 50%;
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
   overflow:hidden;
-  float: center;
+  margin:20px;
   
   -webkit-animation: spin 3s linear 0s infinite reverse;
   -moz-animation: spin 3s linear 0s infinite reverse;  
@@ -333,14 +333,12 @@ div.element2-container {
   animation-play-state: paused;
 }
 
-div.element2 {
-  width:200px;
-  height:200px;
+div.cubbies {
+  width:100%;
+  height:100%;
   border-radius: 50%;
   background-image: url(https://tribwgntv.files.wordpress.com/2015/03/cubs_300x300.jpg);
   background-repeat:no-repeat;
-  background-position:50% 50%;
-  float: center;
   
   -webkit-animation: spin 6s linear 0s infinite normal;
   -moz-animation: spin 6s linear 0s infinite normal;
@@ -349,7 +347,7 @@ div.element2 {
   animation: spin 6s linear 0s infinite normal;
 }
 
-.element2-container:hover {
+.cubbies-container:hover {
   -webkit-animation-play-state: running;
   -moz-animation-play-state: running;
   -ms-animation-play-state: running;
@@ -361,22 +359,18 @@ div.element2 {
   0% { transform: rotate(360deg); }
   100% { transform: rotate(0deg); }
 }
-
 @-webkit-keyframes spin {
   0% {-webkit-transform: rotate(360deg); }
   100% { -webkit-transform: rotate(0deg); }
 }
-
 @-ms-keyframes spin {
   0% {-ms-transform: rotate(360deg); }
   100% { -ms-transform: rotate(0deg); }
 }
-
 @-moz-keyframes spin {
   0% { -moz-transform: rotate(360deg); }
   100% { -moz-transform: rotate(0deg); }
 }
-
 @-o-keyframes spin {
   0% { -o-transform: rotate(360deg); }
   100% { -o-transform: rotate(0deg); }
