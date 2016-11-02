@@ -337,9 +337,10 @@ div.element2 {
   width:200px;
   height:200px;
   border-radius: 50%;
-  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/24/06/5e/24065e38b5d25070e6080184bf1bdeb1.jpg);
+  background-image: url(https://tribwgntv.files.wordpress.com/2015/03/cubs_300x300.jpg);
   background-repeat:no-repeat;
   background-position:50% 50%;
+  float: center;
   
   -webkit-animation: spin 6s linear 0s infinite normal;
   -moz-animation: spin 6s linear 0s infinite normal;
