@@ -293,7 +293,7 @@ footer {
   width: 250px;
   margin: 0 auto;
   background-color: palegreen;
-  animation-name: element1;
+  animation-name: test1;
   animation-duration: 1.5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
@@ -303,7 +303,7 @@ footer {
   animation-play-state: running;
 }
 
-@keyframes element1 {
+@keyframes test1 {
   0% {
     transform: scale(.3);
     background-color: red;
@@ -316,4 +316,11 @@ footer {
     transform: scale(1.5);
     background-color: purple;
   }
+}
+
+#wrapper-elements {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
