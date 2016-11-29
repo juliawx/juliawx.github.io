@@ -279,6 +279,14 @@ p.blog {
   text-align: center;
 }
 
+h1.blog {
+  padding: 0;
+}
+
+div.blog {
+  padding: 0;
+}
+
 /******** FOOTER ********/
 
 footer {
